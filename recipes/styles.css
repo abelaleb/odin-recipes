@@ -1,0 +1,22 @@
+.head{
+    text-align: center;
+    color: silver;
+    background-color:rgb(85, 73, 5);
+}
+.images{
+    height: 200px;
+}
+.description{
+    color: rgb(48, 202, 48);
+    font-weight: bold;
+    font-size: 30px;
+}
+ol ,
+ul{
+    font-size: 22px;
+    font-weight: bold;
+}
+.a{
+    font-size: bold;
+    color: red;
+}
