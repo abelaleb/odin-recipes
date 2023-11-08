@@ -1,16 +1,36 @@
-body{
-    font-family: 'Times new roman',Arial, Helvetica, sans-serif;
-    font-size: bold;
-    color:rgb(85, 73, 5);
+body {
+  font-family: "Times new roman", Arial, Helvetica, sans-serif;
+  font-size: bold;
+  color: rgb(85, 73, 5);
 }
-.home{
-    color: rgb(233, 198, 3);
-    background-color: rgb(85, 73, 5);
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
+.header {
+  color: rgb(233, 198, 3);
+  background-color: rgb(85, 73, 5);
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  list-style-type: none;
 }
-p{
-    color: rgb(71, 60, 60);
-    font-size: 40px;
+p {
+  color: rgb(71, 60, 60);
+  font-size: 40px;
+}
+div {
+  display: inline-block;
+  border: rgb(214, 197, 100)  solid 3px;
+  padding: 30px;
+  margin: 30px;
+}
+.homeimg {
+  height: 100px;
+  align-items: center;
+  margin: 10px;
+}
+ul {
+  list-style: none;
+}
+li{
+    display: block;
+    margin: 10px;
+    align-items: center;
 }
