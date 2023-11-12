@@ -1,51 +1,65 @@
 body {
   font-family: "Times new roman", Arial, Helvetica, sans-serif;
   font-size: bold;
-  color: rgb(85, 73, 5);
+  color: #554905;
+  background-color: #dbdbd1;
+  font-size: 30px;
 }
-.homepage{
-  color:rgb(75, 19, 19);
-  background-color: rgb(240, 195, 195);
-}
-a:link, a:visited {
-  background-color: rgb(79, 214, 37);
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.header {
-  color: rgb(233, 198, 3);
-  background-color: rgb(117, 101, 7);
+.header{
+  color: #4EEC0A;
+  background-color: #aa9728;
   font-weight: bold;
-  font-size: 20px;
   list-style-type: none;
+  border-radius: 10px;
+  margin: 5px;
 }
-.head{
+.head1{
   display: inline-block;
   margin-right: 30px;
-  color: rgb(65, 238, 12);
+  color: #d7f321;
+  font-size: 30px;
 }
 .headmenu{
+  font-size: 50px;
   display: inline-block;
   margin-left: 100px;
   margin-right: 600px;
 }
-p {
+.hpage{
+  color:#21c900;
+  /*background-color: #7feb38;*/
+  background-color: #EA690099;
+  border-radius: 10px;
+  margin: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.recipe{
+  background-color: #ffffff;
+  display: inline-block;
+  margin: 30px 90px 30px 90px;
+  padding: 5px 5px;
+  border: 2px solid #756507;
+  border-radius: 10px;
+}
+a{
+  color: rgb(0, 255, 0);
   font-size: 30px;
 }
-
+a:hover{
+  color: red;
+}
+a:link {
+  border-radius: 30px;
+  padding: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
 .homeimg {
-  height: 100px;
+  height: 300px;
   align-items: center;
   margin: 10px;
-}
-ul {
-  list-style: none;
-}
-li{
-    display: block;
-    margin: 10px;
-    align-items: center;
+  border-radius: 10px;
+  display: block;
 }

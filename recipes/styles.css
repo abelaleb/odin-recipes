@@ -2,14 +2,37 @@
     text-align: center;
     color: silver;
     background-color:rgb(85, 73, 5);
+    border-radius: 10px;
+}
+.head0{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 400px;
+}
+.head1{
+    display: inline-block;
+    margin-right: 30px;
+    color: #C5C9AA;
+    font-size: 30px;
+  }
+.page{
+    margin: 10px;
+    color: rgb(38, 39, 39);
 }
 .images{
     height: 200px;
+    border-radius: 20px;
 }
 .description{
     color: rgb(48, 202, 48);
     font-weight: bold;
     font-size: 30px;
+}
+.inimg{
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 200px 2px 20px;
 }
 ol ,
 ul{
