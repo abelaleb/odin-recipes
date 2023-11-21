@@ -1,38 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Times new roman", Arial, Helvetica, sans-serif;
-  font-size: bold;
-  color: #554905;
-  background-color: #dbdbd1;
-  font-size: 30px;
+  font-family: 'Vina Sans', sans-serif;
+  color: #E6FF00;
 }
 .header{
-  color: #4EEC0A;
-  background-color: #aa9728;
-  font-weight: bold;
-  list-style-type: none;
-  border-radius: 10px;
-  margin: 5px;
+  color: #DC9218;
 }
-.head1{
-  display: inline-block;
-  margin-right: 30px;
-  color: #d7f321;
-  font-size: 30px;
+ul{
+  list-style: none;
+  padding: 10px;
+  padding-bottom: 50px;
 }
-.headmenu{
-  font-size: 50px;
-  display: inline-block;
-  margin-left: 100px;
-  margin-right: 600px;
+li{
+  display: inline;
 }
-.hpage{
+a{
+  color: #DC9218;;
+  font-size: 42px;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(233, 81, 81);
+}
+.logo{
+  text-align: center;
+}
+.container{
   color:#21c900;
   /*background-color: #7feb38;*/
-  background-color: #EA690099;
   border-radius: 10px;
-  margin: 5px;
+  margin: 20px;
   margin-top: 10px;
   align-items: center;
+
 }
 .recipe{
   background-color: #ffffff;
@@ -42,19 +48,8 @@ body {
   border: 2px solid #756507;
   border-radius: 10px;
 }
-a{
-  color: rgb(0, 255, 0);
-  font-size: 30px;
-}
-a:hover{
-  color: red;
-}
-a:link {
-  border-radius: 30px;
-  padding: 10px;
-  margin-left: 20px;
-  text-decoration: none;
-  display: inline-block;
+.recipe:hover{
+  background-color: #756507;
 }
 .homeimg {
   height: 300px;
@@ -63,3 +58,12 @@ a:link {
   border-radius: 10px;
   display: block;
 }
+.homeimg:hover{
+  height: 320px;
+  animation-duration: 0.3s;
+}
+.container a{
+  font-size: 22px;
+}
+
+
