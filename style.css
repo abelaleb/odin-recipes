@@ -8,13 +8,14 @@ body {
   font-family: "Times new roman", Arial, Helvetica, sans-serif;
   font-family: 'Vina Sans', sans-serif;
   color: #E6FF00;
+  /*background-image: url('images/png.monster-511.png');*/
 }
 .header{
   color: #DC9218;
 }
 ul{
   list-style: none;
-  padding: 10px;
+  padding: 20px;
   padding-bottom: 50px;
 }
 li{
@@ -22,7 +23,7 @@ li{
 }
 a{
   color: #DC9218;;
-  font-size: 42px;
+  font-size: 52px;
   text-decoration: none;
 }
 a:hover{
@@ -31,25 +32,26 @@ a:hover{
 .logo{
   text-align: center;
 }
+.logo:hover{
+  animation-duration: 1 s;
+}
 .container{
-  color:#21c900;
-  /*background-color: #7feb38;*/
   border-radius: 10px;
   margin: 20px;
   margin-top: 10px;
-  align-items: center;
-
 }
+
 .recipe{
   background-color: #ffffff;
   display: inline-block;
   margin: 30px 90px 30px 90px;
-  padding: 5px 5px;
+  padding: 5px;
   border: 2px solid #756507;
   border-radius: 10px;
 }
 .recipe:hover{
   background-color: #756507;
+  animation-duration: 2s;
 }
 .homeimg {
   height: 300px;
@@ -60,7 +62,7 @@ a:hover{
 }
 .homeimg:hover{
   height: 320px;
-  animation-duration: 0.3s;
+  animation-duration: 3s;
 }
 .container a{
   font-size: 22px;

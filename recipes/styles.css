@@ -1,32 +1,35 @@
-.head{
+body{
     text-align: center;
-    color: silver;
-    background-color:rgb(85, 73, 5);
+    color: white;
+    background-color:#554905;
     border-radius: 10px;
+    font-family:  sans-serif;
 }
 .head0{
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+.head0:hover{
+    color: red;
+}
+.description{
+    color: rgb(48, 202, 48);
+    font-size: 26px;
 }
 .head1{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 30px; 
     color: #C5C9AA;
     font-size: 30px;
   }
 .page{
     margin: 10px;
-    color: rgb(38, 39, 39);
+    color: white;
 }
 .images{
-    height: 200px;
+    height: 370px;
     border-radius: 20px;
-}
-.description{
-    color: rgb(48, 202, 48);
-    font-weight: bold;
-    font-size: 30px;
 }
 .inimg{
     display: inline-block;
@@ -37,9 +40,9 @@
 ol ,
 ul{
     font-size: 22px;
-    font-weight: bold;
+    text-align: left;
 }
 .a{
-    font-size: bold;
-    color: red;
+    color: rgb(236, 36, 36);
+    font-size: 20px;
 }
